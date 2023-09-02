@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="w8sKfRcFDjRF3g0k4Wx3" name="Page-1">
-        <mxGraphModel dx="440" dy="1615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="793" dy="1663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -10,7 +10,7 @@
                 <mxCell id="16" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="2" target="3">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="2" value="Generates three random integer values between&amp;nbsp; 0 and 100 and printing their values.&lt;br&gt;&lt;br&gt;number1 = random.randit(0 and 100)&lt;br&gt;number2 = random.randit(0 and 100)&lt;br&gt;number3 = random.randit(0 and 100)&lt;br&gt;&lt;br&gt;print(number1, number2, number3)&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="2" value="Generates three random integer values between&amp;nbsp; 0 and 100 and printing their values.&lt;br&gt;&lt;br&gt;number1 = random.randit(0 and 100)&lt;br&gt;number2 = random.randit(0 and 100)&lt;br&gt;number3 = random.randit(0 and 100)&lt;br&gt;&lt;br&gt;print(number1, number2, number3)&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
                     <mxGeometry x="40" y="40" width="320" height="160" as="geometry"/>
                 </mxCell>
                 <mxCell id="11" style="edgeStyle=none;html=1;" edge="1" parent="1" source="3">
@@ -18,7 +18,7 @@
                         <mxPoint x="200" y="350" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="3" value="Assign&amp;nbsp; the number1 value to the variable min_value&lt;br&gt;min_value = number1&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="3" value="Assign&amp;nbsp; the number1 value to the variable min_value&lt;br&gt;min_value = number1&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
                     <mxGeometry x="40" y="230" width="320" height="90" as="geometry"/>
                 </mxCell>
                 <mxCell id="5" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="4">
@@ -31,16 +31,14 @@
                         <mxPoint x="200" y="560" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="4" value="Use if-condition to find the smallest value among&amp;nbsp; the random values:&lt;br&gt;&lt;br&gt;if (min_value &amp;lt; number2) and (min_value &amp;lt; number3):&lt;br&gt;print(&quot;The min value is &quot; + min_value)&lt;br&gt;elsif (number2&amp;nbsp; &amp;lt; number3):&lt;br&gt;print(&quot;The min value is &quot; + number2)&lt;br&gt;else:&lt;br&gt;print(&quot;The min value is &quot; + number3)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="4" value="Use if-condition to find the smallest value among&amp;nbsp; the random values:&lt;br&gt;&lt;br&gt;if (min_value &amp;lt; number2) and (min_value &amp;lt; number3):&lt;br&gt;print(&quot;The min value is &quot; + min_value)&lt;br&gt;elsif (number2&amp;nbsp; &amp;lt; number3):&lt;br&gt;print(&quot;The min value is &quot; + number2)&lt;br&gt;else:&lt;br&gt;print(&quot;The min value is &quot; + number3)" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
                     <mxGeometry x="40" y="350" width="320" height="180" as="geometry"/>
                 </mxCell>
-                <mxCell id="13" style="edgeStyle=none;html=1;" edge="1" parent="1" source="6">
+                <mxCell id="13" style="edgeStyle=none;html=1;" edge="1" parent="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="200" y="680" as="targetPoint"/>
+                        <mxPoint x="200" y="650" as="sourcePoint"/>
                     </mxGeometry>
-                </mxCell>
-                <mxCell id="6" value="&lt;span style=&quot;background-color: rgb(0, 0, 0);&quot;&gt;The output will be the three random integer values and the smallest number out of the three random integer values.&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(0, 0, 0);&quot;&gt;output: 33 45 67&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(0, 0, 0);&quot;&gt;output: The min value is 33&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="40" y="560" width="320" height="90" as="geometry"/>
                 </mxCell>
                 <mxCell id="7" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
                     <mxGeometry x="175" y="-25" width="50" height="30" as="geometry"/>
@@ -48,11 +46,14 @@
                 <mxCell id="9" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8" target="2">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="8" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="8" value="Start" style="ellipse;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
                     <mxGeometry x="140" y="-75" width="120" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="14" value="End" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="14" value="End" style="ellipse;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
                     <mxGeometry x="140" y="680" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="The output will be the three random integer values and the smallest number out of the three random integer values.&lt;br&gt;output: 33 45 67&lt;br&gt;output: The min value is 33" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;fillColor=default;gradientColor=none;gradientDirection=north;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="560" width="320" height="90" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
